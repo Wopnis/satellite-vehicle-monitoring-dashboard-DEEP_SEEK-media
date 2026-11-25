@@ -1,0 +1,11 @@
+.env
+data/media/
+data/media.zip
+data/alarms/
+data/alarms.json
+data/blacklist.json
+data/seized_vehicles.json
+myenv/
+notes/notes_data.json
+shifts/shifts_data.json
+

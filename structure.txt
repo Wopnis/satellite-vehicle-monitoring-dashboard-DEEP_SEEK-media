@@ -1,0 +1,94 @@
+sattelite-vecile-monitoring-dashboard/
+│
+├── main.py
+├── main_window.py
+│
+├── config/
+│   ├── __init__.py
+│   ├── paths.py
+│   └── settings.py
+│
+├── core/
+│   ├── __init__.py
+│   └── base_manager.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── logger.py
+│   ├── validators.py
+│   ├── global_search.py
+│   └── exact_search.py
+│
+├── alarms/
+│   ├── __init__.py
+│   ├── alarm_manager.py
+│   ├── alarm_tab.py
+│   ├── alarm_entry_form.py
+│   ├── alarm_list_view.py
+│   ├── alarm_edit_dialog.py
+│   ├── alarm_search_tab.py
+│   ├── alarm_status_manager.py
+│   ├── alarm_time_color.py
+│   ├── alarm_sound.py
+│   ├── alarm_media_manager.py
+│   ├── alarm_integration.py
+│   ├── comment_dialog.py
+│   └── search_results_dialog.py
+│
+├── analytics/
+│   ├── __init__.py
+│   ├── analytics_tab.py
+│   ├── analyzer.py
+│   └── export_utils.py
+│
+├── analytics_clicker/
+│   ├── __init__.py
+│   ├── clicker_analytics_tab.py
+│   └── clicker_log_parser.py
+│
+├── seized_vehicles/
+│   ├── __init__.py
+│   ├── seized_manager.py
+│   ├── seized_tab.py
+│   ├── seized_entry_dialog.py
+│   └── seized_parser.py
+│
+├── shifts/
+│   ├── __init__.py
+│   ├── shifts_tab.py
+│   ├── shift_details_dialog.py
+│   └── shift_report.py
+│
+├── blacklist/
+│   ├── __init__.py
+│   └── blacklist_tab.py
+│
+├── notes/
+│   ├── __init__.py
+│   └── notes_tab.py
+│
+├── messages/
+│   ├── __init__.py
+│   └── message_tab.py
+│
+├── letters/
+│   ├── __init__.py
+│   └── letters_tab.py
+│
+├── reminders/
+│   ├── __init__.py
+│   └── reminders_tab.py
+│
+├── data/
+│   ├── alarms.json
+│   ├── seized_vehicles.json
+│   └── media/
+│       └── alarms/
+│
+├── logs/
+│   └── monitoring.log
+│
+├── icons/
+│   └── monitoring.ico
+│
+└── requirements.txt
